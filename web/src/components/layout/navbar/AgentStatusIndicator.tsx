@@ -463,7 +463,7 @@ export function AgentStatusIndicator({ showLabel = false }: AgentStatusIndicator
                       </span>
                     ) : activeAgent.provider === 'github-cli' ? (
                       <span className="text-2xs text-muted-foreground italic">
-                        Default model
+                        {t('agent.defaultModel')}
                       </span>
                     ) : null}
                   </div>

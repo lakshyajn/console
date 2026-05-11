@@ -1991,7 +1991,8 @@
     "providerPrerequisite": "Prerequisite",
     "providerRetry": "Retry",
     "installViaHomebrewMacOS": "# Install via Homebrew (macOS / WSL)",
-    "installLinuxBuildFromSource": "# Linux / WSL: build from source (requires Go 1.25+)"
+    "installLinuxBuildFromSource": "# Linux / WSL: build from source (requires Go 1.25+)",
+    "defaultModel": "Default model"
   },
   "navbar": {
     "closeMenu": "Close menu",

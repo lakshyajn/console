@@ -533,7 +533,7 @@ export function AgentSelector({
           </span>
         ) : agent.provider === "github-cli" ? (
           <span className="text-2xs text-muted-foreground italic">
-            Default model
+            {t('agent.defaultModel')}
           </span>
         ) : null}
         {!agent.available && agent.installMissionId && (
